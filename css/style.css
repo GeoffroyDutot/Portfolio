@@ -144,23 +144,31 @@ p#description{
 
 .competences{
     background-color: #673ab7d4;
-    height: 115%;
+    height: 125%;
 }
 
-.competences-left{
-    list-style: none;
-    margin-left: 15%;
-    margin-top: 10%;
-    float: left;
+.competences-list{
+    display:flex;
+    justify-content: space-between;
 }
 
-.competences-left li, .competences-right li{
+.competences-left li, .competences-right li, .competences-midle li{
     margin-bottom: 80px;
 }
 
-.competences-right{
+.competences-left, .competences-midle, .competences-right{
     list-style: none;
-    margin-right: 15%;
     margin-top: 10%;
-    float: right;
+}
+
+.competences-left{
+    margin-left: 15%;
+}
+
+.competences-right{
+    margin-right: 15%;
+}
+
+.icon-techno{
+    height: 110px;
 }
