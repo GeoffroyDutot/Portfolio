@@ -1,174 +1,48 @@
-html, body {
-    padding : 0;
-    margin : 0;
-    height : 100%;
-    font-family: 'Open Sans', sans-serif;
-    color: #ffffff;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-h2{
-    font-size: 3em;
-    color: #ffffff;
+body {
     margin: 0;
-    padding-top: 5%;
-    display:flex;
-    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2 {
+    color: #FFFFFF;
+    font-size: xx-large;
 }
 
-.home{
-    background-color: #444444;
-    height: 100%;
-}
-
-.name, .title{
-    font-family: 'Yeon Sung', cursive;
-}
-
-.name{
-    padding-top: 15%;
-    justify-content: center;
+header {
     display: flex;
-    color: #ffffff;
-    font-size: 8em;
+    justify-content: space-around;
+    color: #FFFFFF;
 }
 
-.title{
+.nav ul {
     display: flex;
-    justify-content: center;
-    font-size: 3em;
-    color: #ffffff;
-}
-.social-logos{
-    width: 110px;
-    border: 0;
-    margin-left: 30px;
-    margin-top: 30%;
+    list-style-type: none;
 }
 
-.social-network {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.social-logos:hover
-{
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-
-.button-cv{
-    color: #ffffff;
-    font-size: 4em;
-    text-decoration: none;
-    padding: 4%;
-    display: flex;
-    justify-content: center;
-}
-
-.button-cv:hover{
-    color: orange;
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-
-.icon-download{
-    height: 50px;
-    width: 40px;
-    padding-left: 5px;
-    padding-top: 22px;
-}
-
-.about-me{
-    background-color: #9baab1;
-    height: 65%;
-}
-
-.photo{
-    width: 20em;
-    border: 0;
-    transform: rotate(270deg);
-    margin-top: 5%;
-    margin-left: 5%;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    background: #ffffff;
-    float: left;
-}
-
-p#description{
-    margin-top: 5%;
-    width: 80%;
-}
-
-.training{
-    height: 130%;
-    background-color: #6b140ec2;
-}
-
-.training-container{
-    margin-top: 5%;
-    margin-right: 5%;
-    background-color: #80735d;
-    opacity: 0.8;
-    width: 45%;
-    padding: 2%;
-    float: right;
-
-}
-
-.training-container:hover .program-training{
-    display: block;
-}
-
-.training-container:hover .infos-training{
-    display:none;
-}
-.program-training{
-    display:none;
-}
-
-.training-date{
-    margin-top: 10%;
-    margin-left: 15%;
-    float: left;
-}
-
-.date-training{
-    font-size: 2em;
-}
-
-.competences{
-    background-color: #673ab7d4;
-    height: 125%;
-}
-
-.competences-list{
-    display:flex;
+.nav ul li a{
     justify-content: space-between;
+    padding: 0 1rem;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
-.competences-left li, .competences-right li, .competences-midle li{
-    margin-bottom: 80px;
+.nav li a:hover {
+    border-top: solid 1px #FFFFFF;
+    border-bottom: solid 1px #FFFFFF;
 }
 
-.competences-left, .competences-midle, .competences-right{
-    list-style: none;
-    margin-top: 10%;
+#home {
+    background: url("../img/background-home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
-.competences-left{
-    margin-left: 15%;
-}
-
-.competences-right{
-    margin-right: 15%;
-}
-
-.icon-techno{
-    height: 110px;
+.who {
+    padding-top: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
