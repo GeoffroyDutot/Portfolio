@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+html {
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+}
+
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
 }
 h1, h2 {
     color: #FFFFFF;
@@ -33,11 +43,12 @@ header {
 }
 
 #home {
-    background: url("../img/background-home.jpg");
-    background-position: 0 100%;
-    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background: url(../img/background-home.jpg) no-repeat center fixed;
     background-size: cover;
-    height: 100vh;
+    width: inherit;
+    height: inherit;
 }
 
 .who {
@@ -45,4 +56,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/*Smartphones (portrait and landscape)*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+}
+
+/*iPads (portrait and landscape)*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
 }
