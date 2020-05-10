@@ -19,7 +19,10 @@ h1, h2, h3 {
     font-size: xx-large;
     text-align: center;
     margin: 0;
-    padding: 0;
+}
+
+h4 {
+    text-align: center;
 }
 
 a {
@@ -34,6 +37,11 @@ ul {
 header {
     display: flex;
     justify-content: space-around;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav ul {
@@ -73,7 +81,6 @@ header {
 
 #projets, #formations {
     background:rgb(25,29,52);
-    padding-top: 40px;
 }
 
 .group-card {
@@ -88,13 +95,13 @@ header {
     margin-bottom: 50px;
 }
 
-img {
+.project-screenshot {
     max-width: 100%;
     border: #FFFFFF solid 1px;
     border-radius: 8px;
 }
 
-.infos {
+.project-infos {
     padding: 5px 5px 5px 5px;
 }
 
@@ -117,14 +124,47 @@ img {
 
 #formations h3 {
     border-top: white solid 5px;
-    padding-top: 20px
+    padding-top: 20px;
+}
+
+.formation-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 35px;
+}
+
+.formation-container-infos {
+    display: flex;
+    align-items: center;
+    min-width: 600px;
+}
+
+.formation-logo {
+    max-width: 100px;
+}
+
+.formation-infos {
+    padding-left: 15px;
+}
+
+.formation-container-programm {
+    background: #5c6dc8;
+    border-radius: 8px;
+    min-width: 350px;
+}
+
+.formation-container-programm ul {
+    background-color: #FFFFFF;
+    color: #0b0b0b;
+    padding: 5px 5px 5px 5px;
 }
 
 #contact {
     background-color: #5c6dc8;
 }
 
-.infos-contact {
+.contact-infos {
     text-align: center;
 }
 
