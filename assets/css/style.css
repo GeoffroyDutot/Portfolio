@@ -41,8 +41,12 @@
     }
 
     header {
+        width: 100%;
+        background-color: #06050d;
+        opacity: 0.8;
         display: flex;
         justify-content: space-evenly;
+        position: fixed;
     }
 
     section {
